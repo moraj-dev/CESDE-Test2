@@ -16,14 +16,19 @@ Este proyecto permite administrar **docentes y cursos** usando `json-server` com
 
 ## 📌 1️⃣ Instalación y Ejecución
 
-### 🔹 **1. Clonar el repositorio**
+### 🔹 **Clonar el repositorio**
 ```sh
-git clone https://github.com/tuusuario/mi-proyecto.git
-cd mi-proyecto
+git clone https://github.com/moraj-dev/CESDE-Test2.git
+cd CESDE-Test2
+
+#Si no lo tienes instalado, descárgalo de nodejs.org
+#Para verificar si está instalado, corre este comando en la terminal:
+node -v
 
 #Instalar json-server (Si no lo tienes)
 npm install -g json-server
-🔹 3. Iniciar el servidor JSON
+
+#Iniciar el servidor JSON
 
 #Levantar el servidor en un puerto especifico. En el ejemplo sera el puerto por defecto: 3000
 json-server --watch db.json --port 3000
